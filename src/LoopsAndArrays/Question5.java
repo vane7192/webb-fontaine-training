@@ -1,5 +1,6 @@
 package LoopsAndArrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -20,8 +21,6 @@ public class Question5 {
             array[i] = Integer.parseInt(stringArray[i]);
         }
 
-        for (int element : array) {
-            System.out.println("[" + element + "]");
-        }
+        System.out.println(Arrays.toString(array));
     }
 }

@@ -1,5 +1,7 @@
 package LoopsAndArrays;
 
+import java.util.Arrays;
+
 /**
  * Created by Vane Gharakhanian on Sep, 2020
  */
@@ -30,10 +32,8 @@ public class Question7 {
             }
 
         }
-        System.out.print("Ascending order: ");
-        for (int element : array) {
-            System.out.print(String.format("%d ", element));
-        }
+
+        System.out.println("Ascending order:" + Arrays.toString(array));
 
         System.out.println();
 
@@ -48,10 +48,8 @@ public class Question7 {
             }
 
         }
-        System.out.print("Descending order: ");
-        for (int element : array) {
-            System.out.print(String.format("%d ", element));
-        }
+
+        System.out.println("Descending order:" + Arrays.toString(array));
     }
 
 }

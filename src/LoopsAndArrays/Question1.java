@@ -1,5 +1,6 @@
 package LoopsAndArrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -21,9 +22,7 @@ public class Question1 {
         }
 
 
-        for (int element : inputArray) {
-            System.out.print(String.format("%d ", element));
-        }
+        System.out.println(Arrays.toString(inputArray));
 
         System.out.println();
 
@@ -35,8 +34,6 @@ public class Question1 {
             }
         }
 
-        for (int element : reverseArray) {
-            System.out.print(String.format("%d ", element));
-        }
+        System.out.println(Arrays.toString(reverseArray));
     }
 }
